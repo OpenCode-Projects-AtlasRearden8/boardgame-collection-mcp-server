@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "boardgame-collection-mcp-server"
+version = "0.1.0"
+description = "MCP server over a plain-file board game log: catalog games, record plays, report recent plays, unplayed boxes, and weeknight picks."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Asdale Dynamics, LLC" }]
+keywords = ["mcp", "board-games", "game-night", "agents", "local-first"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: End Users/Desktop",
+  "Topic :: Games/Entertainment :: Board Games",
+  "Programming Language :: Python :: 3",
+]
+dependencies = [
+  "mcp>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8",
+]
+
+[project.scripts]
+boardgame-mcp = "boardgame_mcp.server:main"
+
+[tool.setuptools]
+packages = ["boardgame_mcp"]

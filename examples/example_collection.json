@@ -1,0 +1,135 @@
+{
+  "_updated": "example file — copy it anywhere and rename freely",
+  "games": [
+    {
+      "id": "heat-pedal-to-the-metal",
+      "title": "Heat: Pedal to the Metal",
+      "min_players": 1,
+      "max_players": 7,
+      "play_minutes": 60,
+      "weeknight": true,
+      "notes": "Handles bot cars, so it shines even with two."
+    },
+    {
+      "id": "the-crew-mission-deep-sea",
+      "title": "The Crew: Mission Deep Sea",
+      "min_players": 2,
+      "max_players": 5,
+      "play_minutes": 45,
+      "weeknight": true,
+      "notes": "Co-op; the winner line stays empty when we win together."
+    },
+    {
+      "id": "gloomhaven",
+      "title": "Gloomhaven",
+      "min_players": 1,
+      "max_players": 4,
+      "play_minutes": 120,
+      "weeknight": false,
+      "notes": "Weekend-only territory."
+    },
+    {
+      "id": "wingspan",
+      "title": "Wingspan",
+      "min_players": 1,
+      "max_players": 5,
+      "play_minutes": 60,
+      "weeknight": null,
+      "notes": "Europe expansion added."
+    },
+    {
+      "id": "cascadia",
+      "title": "Cascadia",
+      "min_players": 1,
+      "max_players": 4,
+      "play_minutes": 45,
+      "weeknight": true,
+      "notes": ""
+    },
+    {
+      "id": "azul",
+      "title": "Azul",
+      "min_players": 2,
+      "max_players": 4,
+      "play_minutes": 45,
+      "weeknight": null,
+      "notes": ""
+    },
+    {
+      "id": "pandemic-legacy-season-1",
+      "title": "Pandemic Legacy: Season 1",
+      "min_players": 2,
+      "max_players": 4,
+      "play_minutes": 90,
+      "weeknight": null,
+      "notes": "Campaign in progress — spoiler city."
+    },
+    {
+      "id": "tick-tock-brrr-baah",
+      "title": "Tick Tock Brrr Baah",
+      "min_players": 3,
+      "max_players": 6,
+      "play_minutes": 30,
+      "weeknight": null,
+      "notes": "Impulse buy; nothing recorded yet."
+    }
+  ],
+  "plays": [
+    {
+      "game_id": "the-crew-mission-deep-sea",
+      "date": "2026-10-06",
+      "players": ["Dana", "Sam", "Alex"],
+      "winner": "",
+      "minutes": 40
+    },
+    {
+      "game_id": "azul",
+      "date": "2026-10-09",
+      "players": ["Dana", "Sam"],
+      "winner": "Dana",
+      "minutes": null
+    },
+    {
+      "game_id": "cascadia",
+      "date": "2026-10-13",
+      "players": ["Dana", "Sam", "Alex", "Riley"],
+      "winner": "Riley",
+      "minutes": 50
+    },
+    {
+      "game_id": "heat-pedal-to-the-metal",
+      "date": "2026-10-16",
+      "players": ["Sam", "Alex", "Riley", "Dana", "Priya"],
+      "winner": "Sam",
+      "minutes": 65
+    },
+    {
+      "game_id": "wingspan",
+      "date": "2026-10-20",
+      "players": ["Dana", "Riley", "Priya"],
+      "winner": "Priya",
+      "minutes": null
+    },
+    {
+      "game_id": "pandemic-legacy-season-1",
+      "date": "2026-10-24",
+      "players": ["Dana", "Sam", "Alex"],
+      "winner": "",
+      "minutes": 95
+    },
+    {
+      "game_id": "heat-pedal-to-the-metal",
+      "date": "2026-11-03",
+      "players": ["Dana", "Sam", "Alex", "Priya"],
+      "winner": "Dana",
+      "minutes": 55
+    },
+    {
+      "game_id": "cascadia",
+      "date": "2026-11-05",
+      "players": ["Sam", "Alex", "Riley", "Priya"],
+      "winner": "Riley",
+      "minutes": 45
+    }
+  ]
+}
